@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Guessing Game</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/guess.js"></script>
+    </head>
+    <body onload="GenerateNumber();">
+        <header>
+            <h1> Guess a number between 1 to 100</h1>
+        </header>
+
+        <main>
+            <section>
+                <form>
+                    <label for="guess">Enter number:
+                        <input type="number" id="guess" name="guess" />
+                      </label>
+                    
+                    <input type="button" id="btnCheck" value="Click here" onclick="guessNumber()"/>
+                    <br /><br />
+                    <div id="div_response">
+
+                    </div>
+                    <br /><br />
+                    Guessed Numbers:
+                    <div id="div_numbers">
+
+                    </div>
+                    <br /><br />
+                    <div id ="div_attempts">
+
+                    </div>
+
+                    <div id ="guess100">
+
+                    </div>
+                </form>
+
+
+            </section>
+        </main>
+        
+        
+      
+    </body>
+    
+    
+</html>
